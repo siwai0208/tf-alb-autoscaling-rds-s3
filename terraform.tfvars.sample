@@ -1,0 +1,36 @@
+
+# VPC
+aws_access_key = "YOUR ACCESS KEY"
+aws_secret_key = "YOUR SECRET KEY"
+region = "ap-northeast-1"
+
+# VPC
+VPCCIDR = "10.0.16.0/20"
+SubnetsPUB1CIDR = "10.0.16.0/24"
+SubnetsPUB2CIDR = "10.0.17.0/24"
+SubnetsPRV1CIDR = "10.0.24.0/24"
+SubnetsPRV2CIDR = "10.0.25.0/24"
+
+# Security-Group
+SSHLocation = "YOUR SSH LOCATION"
+HTTPLocation = "YOUR HTTP LOCATION"
+
+# EC2-LEMP
+key_name = "YOUR KEY"
+InstanceType = "t2.micro"
+GitUser = "YOUR GIT USER"
+GitEmail = "YOUR GIT EMAIL"
+GitPassword = "YOUR GIT PASSWORD"
+
+# RDS
+DBUser = "DBUser@RDS"
+DBPassword = "DBPassword@RDS"
+DBName = "DBName@RDS"
+DBAz = "ap-northeast-1a"
+DBSourceIP = "10.0.16.0/23"
+
+# S3
+S3BucketKeyID = "YOUR S3 KEYID"
+S3BucketAccessKey = "YOUR S3 AccessKey"
+S3BucketRegion = "ap-northeast-1"
+S3BucketName = "YOUR S3 BucketName"

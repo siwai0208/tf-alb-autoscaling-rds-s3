@@ -1,0 +1,1 @@
+aws s3 cp image/ s3://laravel-app-image/image --recursive
